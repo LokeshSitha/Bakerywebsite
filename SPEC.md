@@ -1,8 +1,8 @@
-# Rustic Rose Bakery - Website Specification
+# Brothers Bakery - Website Specification
 
 ## 1. Project Overview
 
-- **Project Name**: Rustic Rose Bakery
+- **Project Name**: Brothers Bakery
 - **Type**: Single-page E-commerce Website (HTML + Tailwind CSS CDN)
 - **Core Functionality**: A warm, cozy bakery website featuring product browsing, shopping cart, and customer testimonials
 - **Target Users**: Local customers seeking artisanal baked goods

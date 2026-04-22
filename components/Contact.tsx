@@ -135,12 +135,17 @@ export default function Contact() {
                 Find Us
               </h3>
 
-              <div className="bg-chocolate/10 rounded-lg h-64 flex items-center justify-center mb-6">
-                <div className="text-center">
-                  <MapPin size={48} className="mx-auto text-chocolate/40 mb-2" />
-                  <p className="text-chocolate/60">Map Placeholder</p>
-                </div>
-              </div>
+              <a
+                href={`https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent("Near Ramaiay Idli center, Ramnagar Anantapur 515001")}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block w-full h-64 rounded-lg overflow-hidden relative bg-chocolate/10 flex flex-col items-center justify-center"
+              >
+                <MapPin size={48} className="text-chocolate" />
+                <span className="mt-2 font-semibold text-chocolate">
+                  View Location on Maps
+                </span>
+              </a>
 
               <div className="space-y-4">
                 <div className="flex items-center gap-4">
@@ -149,7 +154,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="font-semibold text-chocolate">Address</p>
-                    <p className="text-chocolate/70">123 Baker Street, Sweet City, SC 12345</p>
+                    <p className="text-chocolate/70">Near Ramaiay Idli center, Ramnagar Anantapur 515001</p>
                   </div>
                 </div>
 
@@ -169,7 +174,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="font-semibold text-chocolate">Email</p>
-                    <p className="text-chocolate/70">hello@rusticrose.bakery</p>
+                    <p className="text-chocolate/70">hello@brothersbakery.bakery</p>
                   </div>
                 </div>
               </div>

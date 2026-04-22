@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Rustic Rose Bakery',
+  title: 'Brothers Bakery',
   description: 'Artisanal breads, pastries & cakes made with love',
 }
 

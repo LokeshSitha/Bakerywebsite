@@ -23,7 +23,7 @@ export default function Navbar({ cartCount, onCartClick }: NavbarProps) {
       <div className="max-w-7xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <a href="#home" className="font-serif text-2xl md:text-3xl font-bold text-chocolate">
-            Rustic Rose
+            Brothers Bakery
           </a>
 
           <div className="hidden md:flex items-center space-x-8">

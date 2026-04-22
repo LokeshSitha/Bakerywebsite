@@ -22,16 +22,15 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto">
         <div className="grid md:grid-cols-3 gap-12">
           <div>
-            <h3 className="font-serif text-2xl font-bold mb-6">Rustic Rose</h3>
+            <h3 className="font-serif text-2xl font-bold mb-6">Brothers Bakery</h3>
             <div className="space-y-3">
               <div className="flex items-center gap-3">
                 <Clock size={20} className="text-caramel" />
                 <span className="text-cream/80">Opening Hours</span>
               </div>
               <div className="ml-8 space-y-1 text-cream/70">
-                <p>Mon - Fri: 7:00 AM - 7:00 PM</p>
-                <p>Saturday: 8:00 AM - 6:00 PM</p>
-                <p>Sunday: 8:00 AM - 4:00 PM</p>
+                <p>Mon - Sat: 8:00 AM - 9:00 PM</p>
+                <p>Sunday: 9:00 AM - 8:00 PM</p>
               </div>
             </div>
           </div>
@@ -93,7 +92,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-cream/20 mt-12 pt-8 text-center text-cream/60">
-          <p>&copy; 2026 Rustic Rose Bakery. All rights reserved.</p>
+          <p>&copy; 2026 Brothers Bakery. All rights reserved.</p>
         </div>
       </div>
     </footer>

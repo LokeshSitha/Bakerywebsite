@@ -15,7 +15,7 @@ export const testimonials: Testimonial[] = [
   {
     id: 2,
     name: 'James Rodriguez',
-    text: 'We order cakes from Rustic Rose for every family celebration. They never disappoint! The chocolate layer cake is incredible.',
+    text: 'We order cakes from Brothers Bakery for every family celebration. They never disappoint! The chocolate layer cake is incredible.',
     rating: 5
   },
   {
